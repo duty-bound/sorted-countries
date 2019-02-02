@@ -1,7 +1,12 @@
-import React from 'react';	
+import React from 'react';
 import ReactDOM from 'react-dom';
 
-const mountNode = document.getElementById('mountNode');
-const component = <h1>Hello World!</h1>;
+import { getSortedCountries } from './get-sorted-countries'
 
-ReactDOM.render(component, mountNode);
+const mountNode = document.getElementById('mountNode')
+
+const component = <h1>Hello World!</h1>
+
+console.log(getSortedCountries)
+
+ReactDOM.render(component, mountNode)

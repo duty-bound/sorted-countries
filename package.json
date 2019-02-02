@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "countries-list": "^2.4.2",
     "express": "^4.16.4",
     "npm": "^6.7.0",
+    "ramda": "^0.26.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
